@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+
+.aboutus{
+    background-color: rgb(10, 10, 185);
+    padding: 20px;
+}
+
+.maincontent{
+    background-color: darkorchid;
+    padding: 20px;
+}

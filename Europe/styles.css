@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+@font-face {
+    font-family: neon;
+    src: url(fonts/Neon.ttf);
+}
+@font-face {
+    font-family: nutty_pen;
+    src: url(fonts/Nutty_Pen.otf);
+}
+@font-face {
+    font-family: all_star;
+    src: url(fonts/All_star.ttf);
+}
+@font-face {
+    font-family: judo_kids;
+    src: url(fonts/Judo_kids.otf);
+}
+
+body{
+    font-size: larger;
+    background-color: rgb(36,30,78);
+    font-family: Nutty_pen;
+    color: rgb(237,222,164);
+    padding: 20px 10px 20px 10px;
+    font-weight: bolder;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+
+}
+.description{
+    
+    padding: 20px;
+}
+.countries{
+    
+    padding: 20px;
+}
+
+
+h1{
+    font-family: all_star, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+ul{
+    margin-left: 30px;
+    
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: neon;
+
+}
+
+a:link{
+    color: rgb(60, 122, 137);
+    text-decoration: none;
+}
+
+a:visited{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(247,160,114);
+    text-decoration: underline;
+}
+
