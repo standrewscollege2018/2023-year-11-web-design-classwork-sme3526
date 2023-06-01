@@ -33,6 +33,7 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
+    
 
 }
 .description{
@@ -41,8 +42,9 @@ body{
 }
 .countries{
     
-    padding: 20px;
+    padding: 20px 5px 20px 0px;
 }
+
 
 
 h1{
@@ -56,8 +58,8 @@ ul{
 }
 
 h2{
-    margin-top: 30px;
-    margin-bottom: 10px;
+   padding-top: 10px;
+    padding-bottom: 5px;
     font-family: neon;
 
 }
@@ -76,4 +78,18 @@ a:hover{
     color: rgb(247,160,114);
     text-decoration: underline;
 }
+
+.ukcontainer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.card{
+    margin-left: 10px;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+
+}
+
 
