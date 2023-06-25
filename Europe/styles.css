@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-
 }
 @font-face {
     font-family: neon;
@@ -27,68 +26,87 @@ body{
     color: rgb(237,222,164);
     padding: 20px 10px 20px 10px;
     font-weight: bolder;
-
 }
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
-    
-
 }
-.description{
-    
+.intro{
     padding: 20px;
+
 }
 .countries{
-    
     padding: 20px 5px 20px 0px;
 }
-
-
-
 h1{
     font-family: all_star, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-
 ul{
     margin-left: 30px;
-    
 }
-
 h2{
    padding-top: 10px;
     padding-bottom: 5px;
     font-family: neon;
-
 }
-
 a:link{
     color: rgb(60, 122, 137);
     text-decoration: none;
 }
-
 a:visited{
     color: cadetblue;
     text-decoration: none;
 }
-
 a:hover{
     color: rgb(247,160,114);
     text-decoration: underline;
 }
-
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
 .ukcontainer{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .card{
-    margin-left: 10px;
+    margin: 10px;
+    border: 1px solid rgb(254, 255, 254);
+    border-radius: 10px;
+    padding: 20px;
 }
 .card img{
     max-width: 100%;
     height: auto;
+}
+.card h2{
+    text-align: center;
+}
+.intro img{
+    
+    max-width: 95%;
+    max-height: 95%;
+    border-radius: 20px;
+    border: 2px solid white;
+} 
+.intro_image{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+/* Media query is used to change the layout when screen shanges size*/
+@media only screen and (max-width:1000px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .intro{
+        padding: 10px;
+        padding-left: 15px;
+        border: 1px white solid;
+        border-radius: 10px;
+
+    }
 
 }
 

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: mexico;
+    src: url(bBeautifulRose.ttf);
+}
+body{
+    background-image: url(homebackground.jpg) ;
+    background-size: cover;
+    
+}
+.content {
+    background-color: rgba(0,0,0,0.4);
+    min-height: 400px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #FFD185;
+    text-align: center;
+    
+  
+}
+
+.header h3{
+    padding-top: 60px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.header h1{
+    font-weight: lighter;
+    font-family: mexico;
+    font-size:100px;
+    padding-top: 20px;
+}
+.dotcontain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 60%;
+    margin-right: 60%;
+}
+.footah{
+    margin-bottom: 10px;
+    background-color: #FFD185;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sale{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.email{
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
